@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.8;
+  }
+  
+  .terminal {
+    height: 85vh;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 3.4%;
+    margin-bottom: 3.5rem;
+    background-color: black;
+    
+    
+    border-radius: 6px;
+    padding: 1rem;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .balls {
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1%;
+  }
+  header p {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .container p {
+    color: white;
+    font-size: 1.4rem;
+    margin: 2% 0%;
+   word-spacing: 0.8rem;
+   line-height: 2.4rem;
+  
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+  }
+  .red {
+    color: red;
+    font-size: 1rem;
+  }
+  .green {
+    color: rgb(152, 241, 20);
+  }
+  .yellow {
+    color: yellow;
+  }
+  
+  .blinking-cursor {
+    display: inline-block;
+    background-color: white;
+    animation: blink 700ms infinite;
+    width: 0.45em;
+    height: 1em;
+    vertical-align: middle;
+  
+  }
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(0.8); /* Start slightly smaller */
+      opacity: 0; /* Start invisible */
+    }
+    50% {
+      transform: scale(1.1); /* Slightly larger than normal */
+      opacity: 1; /* Fully visible */
+    }
+    100% {
+      transform: scale(1); /* Back to normal size */
+      opacity: 1; /* Remain fully visible */
+    }
+  }
+  
+  .terminal {
+    animation: zoomInOut 1.5s ease-in-out; /* Apply animation to the terminal */
+    transform-origin: center center; /* Ensure zoom effect happens from the center */
+  }
+  
+  
+  
+  /* typecursor */
+  
+  #typecursor{
+    background-color: white;
+    display: inline-block;
+    width: 0.45em;
+    height: 1em;
+    vertical-align: middle;
+  }
+  
+ 
+  /* helptext */
+  #help{
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    
+  }

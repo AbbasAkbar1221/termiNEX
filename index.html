@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Terminal</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Gupter:wght@400;500;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins&family=Roboto+Slab&family=Ubuntu:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="terminal">
+      <header>
+        <div class="head">
+          <div class="balls" style="background-color: red"></div>
+          <div class="balls" style="background-color: yellow"></div>
+          <div class="balls" style="background-color: rgb(152, 241, 20)"></div>
+          <p>Ace@Abbas's-Macbook-Pro: ~/projects(Bash)</p>
+        </div>
+      </header>
+      <section class="container" id="initialSection">
+        <p class="prompt" id="terminalHead">
+          <span class="green">abbas@Ace's-MacBook-Pro</span>
+          <span class="yellow">(main)</span>
+          <span class="red">~></span>
+          <span id="writeCommand">cat ./about.txt(v1.1.18)</span>
+        </p>
+        <p class="prompt" id="mainContent">
+          <span class="green">abbas@Ace's-MacBook-Pro</span>
+          <span class="yellow">(main)</span>
+          <span class="red">~> </span>
+          Hi, You just stepped into Abbas's public terminal. I am currently
+          being built up. Once ready, I will walk you through the life of
+          Abbas aka Ace. You will be able to ask me about his areas of
+          interests, hobbies, professional experiences and much more. Currently,
+          I am built to support desktop version. I'll be soon available on
+          mobile. Pardon me for any inconvenience and you can always reach out
+          to the deveoper (abbasakbar765@gmail.com) for any
+          queries/suggestions. As I continue to develop, you can always checkout
+          my current features. Looking forward to an amazing interaction.
+        </p>
+        <p id="thanks" style="color: white;">Thanks!</p>
+        <p class="prompt" id="getStartedNodeId">
+          <span class="green">abbas@Ace's-MacBook-Pro</span>
+          <span class="yellow">(main)</span>
+          <span class="red">~> </span>
+          <span id="textToPrint" >To get started; type help and press Enter!!</span>
+        </p>
+        <p class="prompt" id="helpCammandPara" style="visibility: hidden;">
+          <span class="green">abbas@Ace's-MacBook-Pro</span>
+          <span class="yellow">(main)</span>
+          <span class="red">~> </span>
+          <span>
+            <input type="text" id="help" value="help">
+          </span>
+        </p>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
