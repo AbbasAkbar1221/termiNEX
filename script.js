@@ -184,7 +184,7 @@ function setBackgroundColor() {
         break;
   
         case "resume":
-        textToPrint = `${greeting}! Thanks for the query. Get my resume here: https://drive.google.com/file/d/1zR9SNHsYSj30vRtzYE9TJ2HJzMH5Dly_/view?usp=sharing. Hold on, opening in a new tab. Please check if the pop-ups are not blocked`;
+        textToPrint = `${greeting}! Thanks for the query. Get my resume here: https://drive.google.com/file/d/1P2Xk-pPLMWpl-DA9yy4Fup-PJ2NO1ffQ/view?usp=sharing. Hold on, opening in a new tab. Please check if the pop-ups are not blocked`;
         break;
   
         case "bio":
