@@ -103,7 +103,7 @@ function setBackgroundColor() {
             case "resume":
               setTimeout(() => {
                 window.open(
-                  "https://drive.google.com/file/d/1zR9SNHsYSj30vRtzYE9TJ2HJzMH5Dly_/view?usp=sharing",
+                  "https://drive.google.com/file/d/1P2Xk-pPLMWpl-DA9yy4Fup-PJ2NO1ffQ/view?usp=sharing",
                   "_blank"
                 );
               }, 7000);
