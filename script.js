@@ -103,7 +103,7 @@ function setBackgroundColor() {
             case "resume":
               setTimeout(() => {
                 window.open(
-                  "https://drive.google.com/file/d/1P2Xk-pPLMWpl-DA9yy4Fup-PJ2NO1ffQ/view?usp=sharing",
+                  "https://drive.google.com/file/d/1gUd85evl6syd2uRIS0h_k_pLAbquEUZa/view?usp=sharing",
                   "_blank"
                 );
               }, 7000);
@@ -184,7 +184,7 @@ function setBackgroundColor() {
         break;
   
         case "resume":
-        textToPrint = `${greeting}! Thanks for the query. Get my resume here: https://drive.google.com/file/d/1P2Xk-pPLMWpl-DA9yy4Fup-PJ2NO1ffQ/view?usp=sharing. Hold on, opening in a new tab. Please check if the pop-ups are not blocked`;
+        textToPrint = `${greeting}! Thanks for the query. Get my resume here: https://drive.google.com/file/d/1gUd85evl6syd2uRIS0h_k_pLAbquEUZa/view?usp=sharing. Hold on, opening in a new tab. Please check if the pop-ups are not blocked`;
         break;
   
         case "bio":
